@@ -1,0 +1,56 @@
+{
+  "settings": {
+    "number_of_shards": 2,
+    "number_of_replicas": 1
+  },
+   "mappings": {
+    "dynamic": "true",
+    "_source": {
+      "enabled": "true"
+    },
+    "properties": {
+      "paper_id": {
+        "type": "keyword"
+      },
+      "path" : {
+        "type": "keyword"
+      },
+      "abstract": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword"
+          }
+        }
+      },
+      "title": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword"
+          }
+        }
+      },
+      "body": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword"
+          }
+        }
+      },
+      "title_vector": {
+        "type": "dense_vector",
+        "dims": 512
+      },
+      "abstract_vector": {
+        "type": "dense_vector",
+        "dims": 512
+      },
+      "body_vector": {
+        "type": "dense_vector",
+        "dims": 512
+      }
+    }
+  }
+}
