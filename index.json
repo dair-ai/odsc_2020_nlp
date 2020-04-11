@@ -42,14 +42,6 @@
       "title_vector": {
         "type": "dense_vector",
         "dims": 512
-      },
-      "abstract_vector": {
-        "type": "dense_vector",
-        "dims": 512
-      },
-      "body_vector": {
-        "type": "dense_vector",
-        "dims": 512
       }
     }
   }
