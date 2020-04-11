@@ -23,7 +23,7 @@
           }
         }
       }
-      "body_vector": {
+      "body_text_vector": {
         "type": "dense_vector",
         "dims": 512
       }
