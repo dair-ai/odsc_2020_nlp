@@ -1,4 +1,4 @@
-# Applied Deep Learing for NLP Applications
+# Applied Deep Learning for NLP Applications
 
 Repository for talk ODSC talk related to Deep Learning and NLP
 
