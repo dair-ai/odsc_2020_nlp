@@ -2,6 +2,8 @@
 
 Repository for talk ODSC talk related to Deep Learning and NLP
 
+Slides to talk: https://github.com/dair-ai/odsc_2020_nlp/blob/master/Applied%20Deep%20Learning%20for%20NLP%20Applications.pdf
+
 Link to talk: https://odsc.com/speakers/applied-deep-learning-for-nlp-applications/
 
 Course Schedule: https://gist.github.com/omarsar/2c68bb9203bea4b5634d534db4f96608
